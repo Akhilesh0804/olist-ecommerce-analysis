@@ -28,8 +28,7 @@ WITH cte AS (
     SELECT
         4,
         'Stage 4 — delivered to customer',
-        COUNT(*) FILTER (WHERE order_delivered_customer_date IS NOT NULL
-                         AND order_status = 'delivered')
+        COUNT(*) FILTER (WHERE order_delivered_customer_date IS NOT NULL AND order_status = 'delivered')
     FROM orders
     UNION ALL
     SELECT
@@ -45,7 +44,6 @@ SELECT
     stage,
     order_count,
     ROUND(
-        (order_count::NUMERIC / LAG(order_count) OVER (ORDER BY sort_order)) * 100
-    , 2) AS conversion_rate_pct
+        (order_count::NUMERIC / LAG(order_count) OVER (ORDER BY sort_order)) * 100, 2) AS conversion_rate_pct
 FROM cte
 ORDER BY sort_order;
