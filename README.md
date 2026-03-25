@@ -1,12 +1,7 @@
 # Olist E-commerce Funnel & Satisfaction Analysis
 
 ## Problem statement
-Olist is a Brazilian e-commerce marketplace connecting independent 
-sellers to customers across Brazil. Despite healthy order volumes, 
-a significant portion of customers report low satisfaction scores 
-and 23% of delivered customers leave no review — a signal of 
-post-purchase disengagement. This analysis investigates which 
-operational factors most strongly drive poor customer satisfaction.
+Olist is a Brazilian e-commerce marketplace connecting independent sellers to customers across Brazil. Despite healthy order volumes, a significant portion of customers report low satisfaction scores. This analysis investigates which operational factors most strongly drive poor customer satisfaction. Specifically it examines delivery speed, seller reliability, product category performance, and regional logistics as potential drivers of customer dissatisfactio
 
 ## Tools used
 - PostgreSQL — data storage and analysis
