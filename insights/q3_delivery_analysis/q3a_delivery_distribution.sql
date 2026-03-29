@@ -1,3 +1,9 @@
+-- Q3a: Delivery time distribution analysis
+-- Purpose: Understand the percentile distribution of delivery times
+--          to set data-driven buckets for satisfaction analysis
+-- Tables used: orders
+-- Output: Min, max, avg, and key percentiles (P25, P50, P75, P90)
+--         of delivery duration in days for delivered orders only
 SELECT
     PERCENTILE_CONT(0.25) WITHIN GROUP 
         (ORDER BY DATE_PART('day', order_delivered_customer_date - order_purchase_timestamp)) AS p25,
