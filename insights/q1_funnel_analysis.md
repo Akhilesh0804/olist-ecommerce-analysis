@@ -2,6 +2,7 @@ Problem: Where does the Olist purchase funnel break and what is the conversion r
 
 Approach: Built a 5-stage funnel using a CTE in PostgreSQL. Counted orders at each stage using conditional filters. Calculated conversion rates using the LAG window function. Filtered Stage 5 to delivered orders only to maintain funnel consistency.
 
+Output: 
 | Stage | Order count | Conversion rate |
 |---|---|---|
 | Stage 1 — order placed | 99,441 | — |
