@@ -12,7 +12,7 @@ Output:
 
 Findings: Delivery time has a clear and consistent negative impact on customer satisfaction across all four buckets. Fast deliveries averaging 4.62 days score 4.42, while Very slow deliveries averaging 30.70 days score only 3.13, a drop of 1.29 points on a 5 point scale. Critically the decline is not linear. Satisfaction remains relatively stable between the Fast (4.42) and Slow (4.19) buckets, but collapses sharply beyond 20 days. This indicates that orders exceeding 20 days represent a critical threshold beyond which customer experience deteriorates significantly. This finding directly supports the Q2 observation that furniture and large item categories, which likely experience longer delivery times due to size and handling complexity, consistently underperform on satisfaction scores.
 
-![Delivery time vs satisfaction](../assets/q3_delivery_chart.png)
+![Delivery time vs satisfaction](../assets/q3_delivery_time_vs_satisfaction_score.png)
 
 Data note: The analysis was restricted to delivered orders only (order_status = 'delivered') to ensure accurate delivery duration measurement. Incomplete or cancelled orders do not have a definitive delivery timestamp and would produce misleading bucket assignments. A LEFT JOIN was applied on order_reviews to retain all delivered orders in the order count regardless of whether a review was left. AVG() inherently ignores NULL review scores, ensuring satisfaction averages reflect only orders with valid customer feedback.
 
