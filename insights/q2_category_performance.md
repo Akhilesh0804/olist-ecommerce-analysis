@@ -42,19 +42,19 @@ Among the top 20 revenue generating categories, four recorded average
 satisfaction scores below 4.0, representing a meaningful gap against 
 the platform average of approximately 4.1.
 
-**office_furniture** stands out as the most concerning category — 
+**office_furniture** stands out as the most concerning category, 
 generating R$269,418 in revenue while recording the lowest satisfaction 
 score in the top 20 at 3.52, a full 0.67 points below the next lowest 
 performer. This gap is significant on a 5 point scale.
 
-**bed_bath_table** presents the highest revenue risk — the third largest 
+**bed_bath_table** presents the highest revenue risk, the third largest 
 revenue generator at R$1.04M with a satisfaction score of only 3.92. 
 A large, high revenue category with below average satisfaction represents 
 a direct threat to repeat purchase rates and long term platform growth.
 
 **furniture_decor and computers_accessories** round out the underperforming 
 group at 3.95 and 3.98 respectively. All four underperforming categories 
-share a common characteristic — they involve large, bulky, or technically 
+share a common characteristic, they involve large, bulky, or technically 
 complex items that are inherently more difficult to handle and ship. This 
 suggests delivery handling and transit time may be primary drivers of 
 dissatisfaction, a hypothesis that is tested and confirmed in Q3.
