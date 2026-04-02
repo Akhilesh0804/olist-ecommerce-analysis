@@ -1,9 +1,9 @@
-## Problem
+Problem
 Which sellers are consistently underperforming on customer satisfaction, 
 and what patterns do they share in terms of location, order volume, 
 and delivery performance?
 
-## Approach
+Approach
 A CTE was used to calculate delivery duration per order by joining 
 sellers, order_items, orders, and order_reviews via their respective 
 keys. The outer query aggregated the data by seller, calculating total 
@@ -13,7 +13,7 @@ a minimum of 10 delivered orders and an average review score below 3.5,
 ensuring the analysis reflects sustained underperformance rather than 
 isolated incidents.
 
-## Output
+Output
 Top 10 underperforming sellers by average review score. 
 Full list contains 78 sellers meeting the threshold criteria.
 
@@ -30,7 +30,7 @@ Full list contains 78 sellers meeting the threshold criteria.
 | 02d35243ea2e497335cd0f076b45675d | Natal | RN | 14 | 25.8 | 2.69 |
 | c26a2be5b53b7db6b276280da212a779 | Nova Friburgo | RJ | 13 | 13.6 | 2.72 |
 
-## Findings
+Findings
 78 sellers with a minimum of 10 delivered orders were identified with 
 an average review score below 3.5, representing a subset of the seller 
 base with sustained underperformance patterns.
@@ -61,7 +61,7 @@ indicating the root cause is product quality or customer service rather
 than logistics. These sellers require a different intervention strategy 
 than delivery driven underperformers.
 
-## Data note
+Data note
 Analysis was restricted to delivered orders only (order_status = 
 'delivered') for consistency with project methodology. A minimum 
 threshold of 10 orders and an average review score below 3.5 was applied 
