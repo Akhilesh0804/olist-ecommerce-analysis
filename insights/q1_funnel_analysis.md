@@ -52,8 +52,8 @@ quality in Q4, and regional logistics in Q5.
 ## Data note
 Stage 5 was filtered to delivered orders only (order_status = 
 'delivered') to maintain funnel consistency across all stages. Reviews 
-on non-delivered orders — including shipped, invoiced, and cancelled 
-statuses — were excluded from the funnel but retained in the raw data 
+on non-delivered orders including shipped, invoiced, and cancelled 
+statuses were excluded from the funnel but retained in the raw data 
 for seller quality analysis in Q4. An anomaly was identified during 
 analysis where the initial Stage 5 count exceeded Stage 4, caused by 
 reviews existing on non-delivered orders. This was resolved by applying 
