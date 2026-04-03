@@ -1,3 +1,26 @@
+-- Q4: Underperforming seller analysis
+-- Purpose: Identify sellers with sustained poor customer satisfaction
+--          scores and analyse their delivery performance and geographic
+--          location to determine whether underperformance is driven by
+--          delivery time, product quality, or seller behaviour
+-- Tables used: sellers, order_items, orders, order_reviews
+-- Key decisions:
+--   1. Filtered to delivered orders only (order_status = 'delivered')
+--      for consistency with project methodology
+--   2. Minimum threshold of 10 orders applied via HAVING clause to
+--      ensure findings reflect sustained underperformance rather than
+--      isolated negative experiences from low volume sellers
+--   3. Satisfaction threshold set at below 3.5 average review score
+--      to capture sellers with a meaningful and consistent gap below
+--      the platform average of approximately 4.1
+--   4. LEFT JOIN used on order_reviews to retain all delivered orders
+--      in aggregation regardless of whether a review was left
+--   5. Ordered by avg_review_score ascending so worst performers
+--      appear first
+-- Output: 78 sellers meeting threshold criteria shown here as top 10
+--         worst performers by avg review score, displaying seller id,
+--         city, state, total orders, avg delivery days, avg review score
+
 WITH delivery_data AS (
     SELECT
         s.seller_id,
