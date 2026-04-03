@@ -61,6 +61,9 @@ indicating the root cause is product quality or customer service rather
 than logistics. These sellers require a different intervention strategy 
 than delivery driven underperformers.
 
+## Charts
+![Top 10 worst performing sellers](../assets/q4_seller_chart.png)
+
 ## Data note
 Analysis was restricted to delivered orders only (order_status = 
 'delivered') for consistency with project methodology. A minimum 
