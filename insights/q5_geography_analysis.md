@@ -90,7 +90,7 @@ States with meaningful local seller bases consistently achieve better
 delivery times. Minas Gerais and Paraná both have over 13% local seller 
 share and achieve 12.0 day delivery times. Santa Catarina at 7.2% local 
 share achieves 15.0 days. Rio de Janeiro at 7.7% local share achieves 
-15.3 days. The correlation is clear — every increase in local seller 
+15.3 days. The correlation is clear, every increase in local seller 
 share reduces average delivery time.
 
 **An important nuance on satisfaction scores.**
