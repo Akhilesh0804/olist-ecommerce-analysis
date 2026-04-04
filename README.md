@@ -25,7 +25,7 @@ Q2 — Which product categories drive the most revenue and which have the worst 
 Q3 — Does delivery time affect customer satisfaction scores and at what point do ratings drop significantly?
 Q4 — Which sellers are consistently underperforming and what do they have in common?
 Q5 — Does geography predict poor customer experience and is the problem infrastructure or seller concentration?
-
+ 
 ## Methodology
 All analysis is filtered to delivered orders only (order_status = 
 'delivered') unless explicitly stated otherwise. This ensures 
