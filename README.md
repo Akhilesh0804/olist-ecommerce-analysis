@@ -108,7 +108,7 @@ olist-ecommerce-analysis/
 │   ├── q3_delivery_analysis/  
 │   │   ├── q3a_delivery_distribution.sql  
 │   │   └── q3b_delivery_vs_satisfaction.sql  
-│   └── q5_geography_analysis/  
+│   └── q5_geography_analysis/    
 │       ├── q5a_state_delivery.sql  
 │       └── q5b_seller_concentration.sql  
 ├── insights/  
