@@ -36,14 +36,14 @@ delivery time bucketing thresholds.
 
 ## Key findings
 
-**Q1 — Funnel analysis**
+**Q1 — Funnel analysis**  
 The Olist purchase funnel demonstrates consistently strong conversion 
 rates across all five stages, ranging from 98.54% to 99.84%, reflecting 
 an operationally healthy marketplace. Volume drop off is not Olist's 
 primary challenge. The focus shifts to the quality of the 95,647 reviews 
 collected rather than their quantity.
-
-**Q2 — Category performance**
+ 
+**Q2 — Category performance**  
 Four of the top 20 revenue generating categories record satisfaction 
 scores below 4.0. office_furniture is the most concerning, generating 
 R$269,418 while scoring only 3.52, a full 0.67 points below the next 
@@ -53,7 +53,7 @@ the third largest revenue generator at R$1.04M with a score of only
 technically complex items, suggesting delivery handling and transit time 
 are primary drivers of dissatisfaction, a hypothesis confirmed in Q3.
 
-**Q3 — Delivery time vs satisfaction**
+**Q3 — Delivery time vs satisfaction**  
 Delivery time has a clear and consistent negative impact on customer 
 satisfaction. Fast deliveries averaging 4.62 days score 4.42, while 
 Very slow deliveries averaging 30.70 days score only 3.13, a drop of 
@@ -61,7 +61,7 @@ Very slow deliveries averaging 30.70 days score only 3.13, a drop of
 remains relatively stable up to 20 days but collapses sharply beyond 
 that threshold, identifying 20 days as the critical intervention point.
 
-**Q4 — Seller quality**
+**Q4 — Seller quality**  
 78 sellers with a minimum of 10 delivered orders were identified with 
 an average review score below 3.5, representing sustained 
 underperformance across the seller base. Three distinct underperformer 
@@ -73,7 +73,7 @@ delivery days yet scoring 2.66, indicating a product or service quality
 issue independent of logistics. São Paulo has the highest concentration 
 of underperforming sellers warranting targeted intervention.
 
-**Q5 — Geography**
+**Q5 — Geography**  
 Geographic location is a strong predictor of delivery time and 
 customer satisfaction. Northern and Northeastern states are 
 significantly underserved, with Roraima averaging 29.4 days and 
@@ -85,7 +85,7 @@ Minas Gerais and Paraná at over 13% local share consistently achieve
 delivery times under 12 days, providing a replicable model for 
 expansion into underserved regions.
 
-**Overall conclusion**
+**Overall conclusion**  
 Poor customer satisfaction on Olist is not a funnel problem or a 
 volume problem. It is a logistics and geographic distribution problem. 
 Delivery time is the single strongest driver of dissatisfaction, 
