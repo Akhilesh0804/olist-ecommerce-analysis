@@ -39,7 +39,7 @@ delivery time bucketing thresholds.
 **Q1 — Funnel analysis**
 The Olist purchase funnel demonstrates consistently strong conversion 
 rates across all five stages, ranging from 98.54% to 99.84%, reflecting 
-an operationally healthy marketplace. Volume drop-off is not Olist's 
+an operationally healthy marketplace. Volume drop off is not Olist's 
 primary challenge. The focus shifts to the quality of the 95,647 reviews 
 collected rather than their quantity.
 
@@ -78,7 +78,7 @@ Geographic location is a strong predictor of delivery time and
 customer satisfaction. Northern and Northeastern states are 
 significantly underserved, with Roraima averaging 29.4 days and 
 Alagoas scoring only 3.8. The root cause is seller concentration 
-rather than seller quality — 64 to 80% of orders reaching remote 
+rather than seller quality, 64 to 80% of orders reaching remote 
 states are fulfilled by São Paulo based sellers travelling thousands 
 of kilometres. States with meaningful local seller presence such as 
 Minas Gerais and Paraná at over 13% local share consistently achieve 
