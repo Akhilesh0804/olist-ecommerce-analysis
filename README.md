@@ -133,7 +133,6 @@ olist-ecommerce-analysis/
 5. Refer to the insights/ folder for findings and interpretation of each query  
 
 ## Tableau dashboard
-## Tableau dashboard
 Dashboard currently in development. Will be published to Tableau Public 
 upon completion. All underlying analysis and charts are available in the 
 assets/ folder.
