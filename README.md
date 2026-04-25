@@ -138,6 +138,6 @@ Built using Power BI. Full dashboard screenshot below.
 ![Olist Dashboard](assets/olist_dashboard.png)
 
 ## Author
-Akhilesh Rangaraj 
+Akhilesh Rangaraj   
 Transitioning from Aeronautical Engineering to Business and Product Analytics  
 LinkedIn: https://www.linkedin.com/in/akhilesh-rangaraj-ba39b126b/
