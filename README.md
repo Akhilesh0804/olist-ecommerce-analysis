@@ -133,11 +133,11 @@ olist-ecommerce-analysis/
 5. Refer to the insights/ folder for findings and interpretation of each query  
 
 ## Tableau dashboard
-Dashboard currently in development. Will be published to Tableau Public 
-upon completion. All underlying analysis and charts are available in the 
-assets/ folder.
+Built using Power BI. Full dashboard screenshot below.
+
+![Olist Dashboard](assets/olist_dashboard.png)
 
 ## Author
-(Your name)  
+Akhilesh Rangaraj 
 Transitioning from Aeronautical Engineering to Business and Product Analytics  
-LinkedIn: (your link)  
+LinkedIn: https://www.linkedin.com/in/akhilesh-rangaraj-ba39b126b/
